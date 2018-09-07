@@ -1,0 +1,52 @@
+html{
+	font-size: 4vmin;
+}
+body{
+	margin: 0;
+	font-size: 0;
+	display: table;
+}
+#animalList, #animalDetails{
+	font-size: 1rem;
+	display: table-cell;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+#animalList{
+	width: 70%;
+	border-right: 3px solid black;
+}
+#animalDetails{
+	width: 30%;
+}
+.animalContainer{
+	position: relative;
+}
+.animalContainer .name{
+	width: 70%;
+	float: left;
+}
+.animalContainer .avatar{
+	float: left;
+	width: 30%;
+}
+.avatar{
+	height: 30px;
+	width: 30%;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.animalContainer::after{
+	content: '';
+	border-bottom: 3px solid black;
+	position: absolute;
+	bottom: 0;
+	width: 80%;
+	left: 10%;
+
+}
+
+
+
+
