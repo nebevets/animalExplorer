@@ -7,4 +7,4 @@ var animals = [
 	{name: 'Bull', image: 'images/bull.jpg', extra: 'Size: Large<br>Color: Black<br>Food: Grass'},
 ]
 
-module.exports(animals);
+module.exports =animals;

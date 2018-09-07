@@ -1,4 +1,4 @@
-
+var animals = require('./data/animals.js');
 //require the animals.js file from the data folder, store it in a variable
 
 //require express
