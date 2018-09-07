@@ -21,13 +21,19 @@ body{
 }
 .animalContainer{
 	position: relative;
+	font-size: 0;
+}
+.animalContainer, .animalContainer *{
+	cursor: pointer;
+}
+.animalContainer *{
+	display: inline-block;
+	font-size: 1rem;
 }
 .animalContainer .name{
 	width: 70%;
-	float: left;
 }
 .animalContainer .avatar{
-	float: left;
 	width: 30%;
 }
 .avatar{
