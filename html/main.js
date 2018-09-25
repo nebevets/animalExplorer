@@ -7,8 +7,9 @@ function initializeApp(){
 
 function loadData(){
 	const options = {
-		url: '/data',
-		//url: 'test.js',
+		url: 'data.php',
+		//url: '/data', // for node server
+		//url: 'test.js', // for dummy data in test.js
 		dataType: 'json',
 		method: 'get',
 		success: loadAllAnimals
